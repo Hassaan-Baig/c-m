@@ -1,6 +1,6 @@
-const seconds = document.querySelector('seconds number');
-minutes = document.querySelector(".minutes .number");
-hours = document.querySelector(".hours .number");
-days = document.querySelector(".days .number");
+const seconds = document.querySelector(".time-seconds .number").textContent;
+const minutes = document.querySelector(".time-minutes .number").textContent;
+const hours = document.querySelector(".time-hours .number").textContent;
+const days = document.querySelector(".time-days .number").textContent;
 
 console.log(seconds, minutes, hours, days);
